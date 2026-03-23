@@ -1,4 +1,0 @@
-/home/artem/Dev/Homework/Multithreading/hw5/build/CMakeFiles/test_future.dir
-/home/artem/Dev/Homework/Multithreading/hw5/build/CMakeFiles/test_thread_pool.dir
-/home/artem/Dev/Homework/Multithreading/hw5/build/CMakeFiles/edit_cache.dir
-/home/artem/Dev/Homework/Multithreading/hw5/build/CMakeFiles/rebuild_cache.dir
