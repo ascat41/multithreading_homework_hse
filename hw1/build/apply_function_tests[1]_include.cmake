@@ -1,5 +1,0 @@
-if(EXISTS "/home/artem/Dev/Homework/Multithreading/hw1/build/apply_function_tests[1]_tests.cmake")
-  include("/home/artem/Dev/Homework/Multithreading/hw1/build/apply_function_tests[1]_tests.cmake")
-else()
-  add_test(apply_function_tests_NOT_BUILT apply_function_tests_NOT_BUILT)
-endif()
