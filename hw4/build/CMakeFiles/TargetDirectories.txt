@@ -1,5 +1,0 @@
-/home/artem/Dev/Homework/Multithreading/hw4/build/CMakeFiles/ipc_queue_lib.dir
-/home/artem/Dev/Homework/Multithreading/hw4/build/CMakeFiles/producer_demo.dir
-/home/artem/Dev/Homework/Multithreading/hw4/build/CMakeFiles/consumer_demo.dir
-/home/artem/Dev/Homework/Multithreading/hw4/build/CMakeFiles/edit_cache.dir
-/home/artem/Dev/Homework/Multithreading/hw4/build/CMakeFiles/rebuild_cache.dir

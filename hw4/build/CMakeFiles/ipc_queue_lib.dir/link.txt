@@ -1,2 +1,0 @@
-/usr/bin/ar qc libipc_queue_lib.a CMakeFiles/ipc_queue_lib.dir/ipc_queue.cpp.o
-/usr/bin/ranlib libipc_queue_lib.a
