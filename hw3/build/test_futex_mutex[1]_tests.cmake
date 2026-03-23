@@ -1,7 +1,0 @@
-add_test( FutexMutexTest.TryLockUnlockTryLock /home/artem/Dev/Homework/Multithreading/hw3/build/test_futex_mutex [==[--gtest_filter=FutexMutexTest.TryLockUnlockTryLock]==] --gtest_also_run_disabled_tests)
-set_tests_properties( FutexMutexTest.TryLockUnlockTryLock PROPERTIES WORKING_DIRECTORY /home/artem/Dev/Homework/Multithreading/hw3/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( FutexMutexTest.LockBlocksOtherThreadUntilUnlock /home/artem/Dev/Homework/Multithreading/hw3/build/test_futex_mutex [==[--gtest_filter=FutexMutexTest.LockBlocksOtherThreadUntilUnlock]==] --gtest_also_run_disabled_tests)
-set_tests_properties( FutexMutexTest.LockBlocksOtherThreadUntilUnlock PROPERTIES WORKING_DIRECTORY /home/artem/Dev/Homework/Multithreading/hw3/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( FutexMutexTest.ProtectsSharedCounter /home/artem/Dev/Homework/Multithreading/hw3/build/test_futex_mutex [==[--gtest_filter=FutexMutexTest.ProtectsSharedCounter]==] --gtest_also_run_disabled_tests)
-set_tests_properties( FutexMutexTest.ProtectsSharedCounter PROPERTIES WORKING_DIRECTORY /home/artem/Dev/Homework/Multithreading/hw3/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( test_futex_mutex_TESTS FutexMutexTest.TryLockUnlockTryLock FutexMutexTest.LockBlocksOtherThreadUntilUnlock FutexMutexTest.ProtectsSharedCounter)
