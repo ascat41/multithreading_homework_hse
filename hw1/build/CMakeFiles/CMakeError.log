@@ -1,0 +1,32 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e16a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e16a7.dir/build.make CMakeFiles/cmTC_e16a7.dir/build
+gmake[1]: Entering directory '/home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e16a7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++17 -o CMakeFiles/cmTC_e16a7.dir/src.cxx.o -c /home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_e16a7.dir/build.make:78: CMakeFiles/cmTC_e16a7.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e16a7/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5de83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5de83.dir/build.make CMakeFiles/cmTC_5de83.dir/build
+gmake[1]: Entering directory '/home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5de83.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -std=c++17 -o CMakeFiles/cmTC_5de83.dir/src.cxx.o -c /home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wthread-safety'
+c++: error: unrecognized command-line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_5de83.dir/build.make:78: CMakeFiles/cmTC_5de83.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/artem/Dev/Homework/Multithreading/hw1/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5de83/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
