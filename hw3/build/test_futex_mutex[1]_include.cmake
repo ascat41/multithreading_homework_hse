@@ -1,0 +1,5 @@
+if(EXISTS "/home/artem/Dev/Homework/Multithreading/hw3/build/test_futex_mutex[1]_tests.cmake")
+  include("/home/artem/Dev/Homework/Multithreading/hw3/build/test_futex_mutex[1]_tests.cmake")
+else()
+  add_test(test_futex_mutex_NOT_BUILT test_futex_mutex_NOT_BUILT)
+endif()
